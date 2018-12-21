@@ -23,7 +23,7 @@ export default {
   },
   browserLanguageDetection: true,
   detection: {
-    order: ['cookie', 'header', 'querystring'],
+    order: ['cookie', 'subdomain', 'header', 'querystring'],
     caches: ['cookie'],
   },
   backend: {
